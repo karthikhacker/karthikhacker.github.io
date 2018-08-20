@@ -21,7 +21,7 @@ body{
   color:#808e9b;
   letter-spacing: -0em;
   display:block;
-  transition: all 0.2s ease-in-out;
+  transition:  1s ease-in-out;
 }
 .navbar .navbar-brand:hover{
   font-family: 'Roboto', sans-serif;
