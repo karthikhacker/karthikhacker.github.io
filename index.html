@@ -6,11 +6,12 @@
     <!--Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <!--navbar-->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,11 +23,11 @@
           <a class="navbar-brand" href="#">Karthik hacker</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
+          <ul id="nav" class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#">My work</a></li>
-            <li><a href="#">Skills</a></li>
+            <li><a href="#mywork">My work</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -38,15 +39,15 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-           <div class="avatar">
+           <div class="avatar wow animated bounceInLeft">
             <img src="images/user.png" alt="user">
            </div>
-           <div class="title">
+           <div class="title animated bounceInRight">
              <b>Karthik sundararajan</b>
            </div>
            <div class="desc">
-             <p class="p1">Fullstack developer</p>
-             <p class="p2">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur. </p>
+             <p class="p1 animated fadeInUp">Fullstack developer</p>
+             <p class="p2 animated fadeInUp">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur. </p>
            </div>
         </div>
       </div>
@@ -55,7 +56,7 @@
   <!--End-->
   <!--About-->
   <section id="about">
-    <div class="container">
+    <div class="container wow animated fadeInLeft">
       <div class="row">
         <div class="col-sm-12">
           <h2>About Me</h2>
@@ -74,6 +75,8 @@
         <div class="col-sm-12">
           <h2>My Work</h2>
         </div>
+      </div>
+      <div class="row wow animated bounceInLeft">
         <div class="col-sm-6">
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur.</p>
@@ -83,7 +86,7 @@
         </div>
       </div><!--end row-->
       <hr />
-      <div class="row">
+      <div class="row wow animated bounceInRight">
         <div class="col-sm-6">
           <img src="images/2.jpg" alt="image2" class="img-responsive image2">
         </div>
@@ -93,7 +96,7 @@
         </div>
       </div><!--End of row-->
       <hr />
-      <div class="row">
+      <div class="row wow animated bounceInLeft">
         <div class="col-sm-6">
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur.</p>
@@ -103,7 +106,7 @@
         </div>
       </div><!--enf of row-->
       <hr />
-      <div class="row">
+      <div class="row wow animated bounceInRight">
         <div class="col-sm-6">
           <img src="images/4.jpg" alt="image4" class="img-responsive image4">
         </div>
@@ -123,7 +126,7 @@
           <h2>Skills</h2>
         </div>
         <div class="col-sm-6">
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-html5"></i> Html</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
@@ -131,7 +134,7 @@
               </div>
             </div>
           </div><!--skill1-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-css3"></i> Css3</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
@@ -139,7 +142,7 @@
               </div>
             </div>
           </div><!--End of skill2-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-js"></i> Javascript</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
@@ -147,7 +150,7 @@
               </div>
             </div>
           </div><!--End of skill3-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-angular"></i> Angular</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
@@ -155,7 +158,7 @@
               </div>
             </div>
           </div><!--End of skill4-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-react"></i> React</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
@@ -165,7 +168,7 @@
           </div><!--End of skill5-->
         </div><!--End of col-sm-6-->
         <div class="col-sm-6">
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-node-js"></i> Node</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
@@ -173,7 +176,7 @@
               </div>
             </div>
           </div><!--End of skill6-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fas fa-database"></i> Mongodb</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
@@ -181,7 +184,7 @@
               </div>
             </div>
           </div><!--End of skill7-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fas fa-gem"></i> Ruby on Rails</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
@@ -189,7 +192,7 @@
               </div>
             </div>
           </div><!--End of skill7-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fas fa-database"></i> Mysql</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
@@ -197,7 +200,7 @@
               </div>
             </div>
           </div><!--End of skill7-->
-          <div class="skill">
+          <div class="skill wow animated fadeInLeft">
             <h4><i class="fab fa-php"></i> Php</h4>
             <div class="progress">
               <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
@@ -214,12 +217,12 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 wow animated fadeInDown">
           <h2>Connect with me</h2>
         </div>
         <div class="col-sm-12">
-          <p>Reach me at  <i class="fas fa-envelope"></i> <b>karthik.hacker85@gmail.com</b></p>
-          <div class="social">
+          <p class="wow animated bounceInUp">Reach me at  <i class="fas fa-envelope"></i> <b>karthik.hacker85@gmail.com</b></p>
+          <div class="social wow animated bounceInLeft">
             <span><a href=""><i class="fab fa-facebook"></i></a></span>
             <span><a href=""><i class="fab fa-twitter-square"></i></a></span>
             <span><a href=""><i class="fab fa-github-square"></i></a></span>
@@ -233,7 +236,7 @@
   <!--Footer-->
   <section id="footer">
     <div class="container">
-      <div class="row">
+      <div class="row wow animated fadeInDown">
         <div class="col-sm-12">
           <p><a href="https://karthikhacker.github.io">www.karthikhacker.github.io</a></p>
         </div>
@@ -243,6 +246,9 @@
   <!--End-->
   <!-- Jquery -->
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/main.js"></script>
   <!--bootstrap js-->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/fontawesome.min.js"></script>

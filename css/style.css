@@ -1,40 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 body{
   font-family: 'Roboto', sans-serif;
 }
 .navbar-default{
+  font-family: 'Poppins', sans-serif;
   min-height: 40px;
   text-align: center;
   margin:0;
   padding:0;
+  background: transparent;
+  border:0;
 }
 .navbar .navbar-brand{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color:#2d3436;
+  font-weight: 900 !important;
+  color:#fff;
+}
+.navbar .navbar-brand:hover{
+  font-weight: bold;
+  color:#fff;
 }
 .navbar .nav li a{
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 100;
-  color:#808e9b;
   letter-spacing: -0em;
   display:block;
   transition:  1s ease-in-out;
-}
-.navbar .navbar-brand:hover{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color:#2d3436;
+  color:#fff;
 }
 .navbar .nav li a:hover{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
   color:#2ABB9B;
   letter-spacing: -0em;
   display:block;
   text-decoration: none;
+  color:#fff;
 }
 /****Home***/
 #home{
@@ -106,8 +105,7 @@ body{
 #mywork h2{
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  margin-top:50px;
-  padding-bottom: 40px;
+  padding: 50px 0;
   color:#fff;
   text-align:center;
   word-spacing: 1px;
