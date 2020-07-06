@@ -5,6 +5,13 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.navbar-default  .navbar-nav .active > a,
+.navbar-default .navbar-nav .active a:focus
+{
+  border-bottom: 2px solid #FFF;
+  background: none !important;
+  color:#FFF;
+}
 .navbar-default{
   font-family: 'Poppins', sans-serif;
   min-height: 40px;
@@ -63,21 +70,15 @@ body{
   font-size: 28px;
   letter-spacing: 1px;
 }
-#home .desc .p1{
+#home .desc  > .fadeInUp{
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 20;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #fff;
   padding-top:10px;
 }
-#home .desc .p2{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  color:#fff;
-  padding-top:20px;
-  word-spacing: 2px;
-}
+
 /** About**/
 #about{
   margin:0;
@@ -96,8 +97,9 @@ body{
 #about .p3{
   font-family: 'Raleway', sans-serif;
   margin-top: 25px;
-  font-weight: 400;
-  color:#6C7A89;
+  font-weight: 300;
+  font-size: 19px;
+  color:#FFF;
   text-align: center;
   word-spacing: 1px;
 }
@@ -105,6 +107,9 @@ body{
 #mywork{
   padding:100px 0;
   background:#22A7F0;
+}
+#mywork a{
+  color:#FFF;
 }
 #mywork h2{
   font-family: 'Raleway', sans-serif;
@@ -146,6 +151,14 @@ body{
   padding: 20px 0;
   color:#fff;
   letter-spacing:2px;
+}
+#skills p{
+  text-align: center;
+  color:#FFF;
+  line-height: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100;
+  font-size: 19px;
 }
  .skill{
   padding:20px;
